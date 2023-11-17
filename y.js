@@ -5,7 +5,7 @@ const payload = {
   post_msg: 'nugget',
   post_submit: 'Post the message',
   post_topic_id: 1,
-  token: '41f23d0e891c507a71a1fc0bb51b65b5'
+  token: '95f7bfe9cbf7168feafb7e1390d55aea'
 };
 
 fetch(url, {
