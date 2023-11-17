@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const url = 'http://10.110.15.159/forum.php';
+  const url = '/forum.php';
   const token = document.querySelector('input[name="token"]').value;
   const payload = {
     post_author: 1,
